@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Хобби — Саят</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo">Саят</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links">
+      <a href="about.html">Обо мне</a>
+      <a href="goal.html">Цель</a>
+      <a href="story.html">История</a>
+      <a href="mentor.html">Ментор</a>
+      <a href="progress.html">Прогресс</a>
+      <a href="hobbies.html" class="nav__active">Хобби</a>
+      <a href="works.html">Работы</a>
+      <a href="github.html">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="section section--dark page-hero">
+    <div class="section__inner">
+      <span class="section__tag">06</span>
+      <h1 class="section__title">Хобби и интересы</h1>
+      <div class="hobbies__grid">
+        <div class="hobby__card reveal">
+          <div class="hobby__icon">🎵</div>
+          <h4>Гитара</h4>
+          <p>Давно мечтал научиться играть на гитаре и решил что пришло время научиться.</p>
+        </div>
+        <div class="hobby__card reveal">
+          <div class="hobby__icon">📚</div>
+          <h4>Английский язык</h4>
+          <p>С детства интересовался английским языком, сейчас же усердно готовлюсь к сдаче IELTS.</p>
+        </div>
+        <div class="hobby__card reveal">
+          <div class="hobby__icon">💻</div>
+          <h4>Кодинг</h4>
+          <p>Не смотря на то что я учусь кодить, это все равно является моим хобби.</p>
+        </div>
+        <div class="hobby__card reveal">
+          <div class="hobby__icon">🚲</div>
+          <h4>Любительский велоспорт</h4>
+          <p>Катаюсь на велосипеде, чисто для души, что бы развеяться.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="page-nav-bottom page-nav-bottom--dark">
+    <a href="progress.html" class="page-nav-btn page-nav-btn--prev">← Прогресс</a>
+    <a href="works.html" class="page-nav-btn page-nav-btn--next">Работы →</a>
+  </div>
+
+  <footer class="footer">
+    <p>Саят · 2025 · Сделано с ❤️ на HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

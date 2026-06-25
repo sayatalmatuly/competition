@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио — Саят</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo">Саят</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links">
+      <a href="about.html">Обо мне</a>
+      <a href="goal.html">Цель</a>
+      <a href="story.html">История</a>
+      <a href="mentor.html">Ментор</a>
+      <a href="progress.html">Прогресс</a>
+      <a href="hobbies.html">Хобби</a>
+      <a href="works.html">Работы</a>
+      <a href="github.html">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Привет, я</p>
+      <h1 class="hero__name">Саят</h1>
+      <p class="hero__sub">Веб-разработчик · Кызылорда · 15 лет</p>
+      <a href="about.html" class="btn">Узнать больше</a>
+    </div>
+    <div class="hero__scroll-hint">↓</div>
+  </section>
+
+  <!-- Быстрые ссылки на все разделы -->
+  <section class="section home__sections">
+    <div class="section__inner">
+      <h2 class="section__title">Разделы</h2>
+      <div class="home__grid">
+        <a href="about.html" class="home__card">
+          <span class="home__card-num">01</span>
+          <h3>О себе</h3>
+          <p>Кто я, откуда и пара фактов</p>
+        </a>
+        <a href="goal.html" class="home__card">
+          <span class="home__card-num">02</span>
+          <h3>Моя цель</h3>
+          <p>Зачем я здесь и куда иду</p>
+        </a>
+        <a href="story.html" class="home__card">
+          <span class="home__card-num">03</span>
+          <h3>История</h3>
+          <p>Как я попал в IT</p>
+        </a>
+        <a href="mentor.html" class="home__card">
+          <span class="home__card-num">04</span>
+          <h3>Ментор</h3>
+          <p>Кто помогает и вдохновляет</p>
+        </a>
+        <a href="progress.html" class="home__card">
+          <span class="home__card-num">05</span>
+          <h3>Прогресс</h3>
+          <p>Точка А → Точка Б</p>
+        </a>
+        <a href="hobbies.html" class="home__card">
+          <span class="home__card-num">06</span>
+          <h3>Хобби</h3>
+          <p>Жизнь за пределами кода</p>
+        </a>
+        <a href="works.html" class="home__card">
+          <span class="home__card-num">07</span>
+          <h3>Работы</h3>
+          <p>Лучшие проекты из курса</p>
+        </a>
+        <a href="github.html" class="home__card">
+          <span class="home__card-num">08</span>
+          <h3>GitHub</h3>
+          <p>Весь код в открытом доступе</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>[Имя] · 2026 · Сделано с ❤️ на HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

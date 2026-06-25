@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Работы — Саят</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo">Саят</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links">
+      <a href="about.html">Обо мне</a>
+      <a href="goal.html">Цель</a>
+      <a href="story.html">История</a>
+      <a href="mentor.html">Ментор</a>
+      <a href="progress.html">Прогресс</a>
+      <a href="hobbies.html">Хобби</a>
+      <a href="works.html" class="nav__active">Работы</a>
+      <a href="github.html">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="section page-hero">
+    <div class="section__inner">
+      <span class="section__tag">07</span>
+      <h1 class="section__title">Мои лучшие работы</h1>
+      <div class="works__grid">
+        <div class="work__card reveal">
+          <div class="work__thumb"><img src="img/Снимок экрана 2026-06-25 223650.png"></div>
+          <div class="work__info">
+            <h3>ZanGid</h3>
+            <p>Сайт для помощи гражданам разобраться с законодательством РК</p>
+            <p><strong>HTML · Vanilla CSS · Vanilla JS</strong></p>
+            <a href="https://zangid.vercel.app/" class="work__link" target="_blank">Смотреть →</a>
+          </div>
+        </div>
+        <div class="work__card reveal">
+          <div class="work__thumb"><img src="img/Снимок экрана 2026-06-25 224734.png"></div>
+          <div class="work__info">
+            <h3>NailCure</h3>
+            <p>Лендинг для вымышленного маникюр салона.</p>
+            <p><strong>HTML·Vanilla CSS</strong></p>
+            <a href="https://nailcure-drab.vercel.app/" class="work__link" target="_blank">Смотреть →</a>
+          </div>
+        </div>
+        <div class="work__card reveal">
+          <div class="work__thumb">Не завершенный проект</div>
+          <div class="work__info">
+            <h3>SabyrAI</h3>
+            <p>ИИ для оповещения жителей Кызылординской области о солевых бурях.</p>
+            <p><strong>UNFINISHED</strong></p>
+            <a href="#" class="work__link" target="_blank">Смотреть →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="page-nav-bottom">
+    <a href="hobbies.html" class="page-nav-btn page-nav-btn--prev">← Хобби</a>
+    <a href="github.html" class="page-nav-btn page-nav-btn--next">GitHub →</a>
+  </div>
+
+  <footer class="footer">
+    <p>Саят · 2025 · Сделано с ❤️ на HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

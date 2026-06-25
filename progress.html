@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Прогресс — Саят</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo">Саят</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links">
+      <a href="about.html">Обо мне</a>
+      <a href="goal.html">Цель</a>
+      <a href="story.html">История</a>
+      <a href="mentor.html">Ментор</a>
+      <a href="progress.html" class="nav__active">Прогресс</a>
+      <a href="hobbies.html">Хобби</a>
+      <a href="works.html">Работы</a>
+      <a href="github.html">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="section page-hero">
+    <div class="section__inner">
+      <span class="section__tag">05</span>
+      <h1 class="section__title">Точка А → Точка Б</h1>
+      <div class="progress__grid reveal">
+        <div class="progress__card progress__card--a">
+          <span class="progress__label">Точка А</span>
+          <h3>Начало</h3>
+          <ul>
+            <li>Не имел представления как писать сайты и как они устроены.</li>
+            <li>Всегда боялся что кодинг это очень страшно.</li>
+            <li>Единственное что я знал в начале это print("Hello World"), и то это даже не frontend.</li>
+          </ul>
+        </div>
+        <div class="progress__arrow">→</div>
+        <div class="progress__card progress__card--b">
+          <span class="progress__label">Точка Б</span>
+          <h3>Сейчас</h3>
+          <ul>
+            <li>Свободно верстаю сайты и осваиваю JS</li>
+            <li>HTML, CSS, JS</li>
+            <li>Сделал несколько сайтов </li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills__bar-list">
+        <div class="skills__bar">
+          <span class="skills__bar-label">HTML</span>
+          <div class="skills__bar-track"><div class="skills__bar-fill" data-width="85"></div></div>
+          <span class="skills__bar-pct">85%</span>
+        </div>
+        <div class="skills__bar">
+          <span class="skills__bar-label">CSS</span>
+          <div class="skills__bar-track"><div class="skills__bar-fill" data-width="75"></div></div>
+          <span class="skills__bar-pct">75%</span>
+        </div>
+        <div class="skills__bar">
+          <span class="skills__bar-label">JavaScript</span>
+          <div class="skills__bar-track"><div class="skills__bar-fill" data-width="30"></div></div>
+          <span class="skills__bar-pct">30%</span>
+        </div>
+        <div class="skills__bar">
+          <span class="skills__bar-label">Figma</span>
+          <div class="skills__bar-track"><div class="skills__bar-fill" data-width="65"></div></div>
+          <span class="skills__bar-pct">65%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="page-nav-bottom">
+    <a href="mentor.html" class="page-nav-btn page-nav-btn--prev">← Ментор</a>
+    <a href="hobbies.html" class="page-nav-btn page-nav-btn--next">Хобби →</a>
+  </div>
+
+  <footer class="footer">
+    <p>Саят · 2025 · Сделано с ❤️ на HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

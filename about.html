@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>О себе — Саят</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo">Саят</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links">
+      <a href="about.html" class="nav__active">Обо мне</a>
+      <a href="goal.html">Цель</a>
+      <a href="story.html">История</a>
+      <a href="mentor.html">Ментор</a>
+      <a href="progress.html">Прогресс</a>
+      <a href="hobbies.html">Хобби</a>
+      <a href="works.html">Работы</a>
+      <a href="github.html">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="section page-hero">
+    <div class="section__inner">
+      <span class="section__tag">01</span>
+      <h1 class="section__title">О себе</h1>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>Меня зовут <strong>Саят</strong>, мне <strong>15</strong> лет. Я начинающий веб-разработчик, увлечённый созданием интерфейсов, которые одновременно красивы и удобны.</p>
+          <p>Несколько фактов обо мне:</p>
+          <ul class="fact-list">
+            <li>Живу в Кызылорде</li>
+            <li>Учусь в IT-Лицее №3 в Кызылорде</li>
+            <li>Учусь играть на гитаре :)</li>
+          </ul>
+        </div>
+        <div class="about__card">
+          <div class="about__avatar">С</div>
+          <p class="about__caption">Stay hungry. Stay foolish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="page-nav-bottom">
+    <a href="index.html" class="page-nav-btn page-nav-btn--prev">← Главная</a>
+    <a href="goal.html" class="page-nav-btn page-nav-btn--next">Моя цель →</a>
+  </div>
+
+  <footer class="footer">
+    <p>Саят · 2025 · Сделано с ❤️ на HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

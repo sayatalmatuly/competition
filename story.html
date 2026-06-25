@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>История — Саят</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo">Саят</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links">
+      <a href="about.html">Обо мне</a>
+      <a href="goal.html">Цель</a>
+      <a href="story.html" class="nav__active">История</a>
+      <a href="mentor.html">Ментор</a>
+      <a href="progress.html">Прогресс</a>
+      <a href="hobbies.html">Хобби</a>
+      <a href="works.html">Работы</a>
+      <a href="github.html">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="section page-hero">
+    <div class="section__inner">
+      <span class="section__tag">03</span>
+      <h1 class="section__title">Как я пришёл в IT</h1>
+      <div class="story__timeline">
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__body">
+            <span class="timeline__date">2018</span>
+            <p>3 класс, впервые у нашего класса появляется урок информатики. С того момента меня было уже не оттащить от компьютера.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__body">
+            <span class="timeline__date">2024</span>
+            <p>8 класс, у меня появился интерес к программированию и я начал изучать Python.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__body">
+            <span class="timeline__date">2025</span>
+            <p>Понял что мне больше интересен Frontend, и я начинаю учиться верстке сайтов на HTML, CSS, позже в этом же году я написал свою первую страницу резюме, простеньюкую, но сам.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__body">
+            <span class="timeline__date">Сейчас</span>
+            <p>Сейчас же я очень углубился во frontend, а так же активно учусь кодингу на JS. Участвовал на ideathon от Kyzylorda Hub и Amanat разработав сайт с другом.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="page-nav-bottom">
+    <a href="goal.html" class="page-nav-btn page-nav-btn--prev">← Моя цель</a>
+    <a href="mentor.html" class="page-nav-btn page-nav-btn--next">Ментор →</a>
+  </div>
+
+  <footer class="footer">
+    <p>Саят · 2025 · Сделано с ❤️ на HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
